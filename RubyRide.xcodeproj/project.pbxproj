@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F220792519BD7660006315D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F220792419BD7660006315D5 /* Foundation.framework */; };
+		F220792719BD7660006315D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F220792619BD7660006315D5 /* CoreGraphics.framework */; };
+		F220792919BD7660006315D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F220792819BD7660006315D5 /* UIKit.framework */; };
+		F220792B19BD7660006315D5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F220792A19BD7660006315D5 /* SpriteKit.framework */; };
+		F220793119BD7660006315D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F220792F19BD7660006315D5 /* InfoPlist.strings */; };
+		F220793319BD7660006315D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F220793219BD7660006315D5 /* main.m */; };
+		F220793719BD7660006315D5 /* RubyRideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F220793619BD7660006315D5 /* RubyRideAppDelegate.m */; };
+		F220793A19BD7660006315D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F220793819BD7660006315D5 /* Main.storyboard */; };
+		F220793D19BD7660006315D5 /* RubyRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F220793C19BD7660006315D5 /* RubyRideViewController.m */; };
+		F220794019BD7660006315D5 /* RubyRideMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F220793F19BD7660006315D5 /* RubyRideMyScene.m */; };
+		F220794419BD7660006315D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F220794319BD7660006315D5 /* Images.xcassets */; };
+		F220794B19BD7660006315D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F220794A19BD7660006315D5 /* XCTest.framework */; };
+		F220794C19BD7660006315D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F220792419BD7660006315D5 /* Foundation.framework */; };
+		F220794D19BD7660006315D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F220792819BD7660006315D5 /* UIKit.framework */; };
+		F220795519BD7660006315D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F220795319BD7660006315D5 /* InfoPlist.strings */; };
+		F220795719BD7660006315D5 /* RubyRideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F220795619BD7660006315D5 /* RubyRideTests.m */; };
+		F26A25E619C1B5850013D9D3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F26A25E419C1B5850013D9D3 /* icon.png */; };
+		F26A25E719C1B5850013D9D3 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26A25E519C1B5850013D9D3 /* icon@2x.png */; };
+		F2EA626419BDB74600F747B7 /* Images.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F2EA626319BDB74600F747B7 /* Images.atlas */; };
+		F2EA626719BECD8300F747B7 /* EndRide.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EA626619BECD8300F747B7 /* EndRide.m */; };
+		F2EA626A19BED5BE00F747B7 /* RubyRideSummaryInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EA626919BED5BE00F747B7 /* RubyRideSummaryInstance.m */; };
+		F2EA639F19C0AE1C00F747B7 /* Level01.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2EA639E19C0AE1C00F747B7 /* Level01.plist */; };
+		F2EA63A219C0AE7B00F747B7 /* GameObjectNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EA63A119C0AE7B00F747B7 /* GameObjectNode.m */; };
+		F2EA63A519C0AECA00F747B7 /* StarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EA63A419C0AECA00F747B7 /* StarNode.m */; };
+		F2EA63A719C0AF4500F747B7 /* StarPing.wav in Resources */ = {isa = PBXBuildFile; fileRef = F2EA63A619C0AF4500F747B7 /* StarPing.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F220794E19BD7660006315D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F220791919BD7660006315D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F220792019BD7660006315D5;
+			remoteInfo = RubyRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F220792119BD7660006315D5 /* RubyRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F220792419BD7660006315D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F220792619BD7660006315D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F220792819BD7660006315D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F220792A19BD7660006315D5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		F220792E19BD7660006315D5 /* RubyRide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyRide-Info.plist"; sourceTree = "<group>"; };
+		F220793019BD7660006315D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F220793219BD7660006315D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F220793419BD7660006315D5 /* RubyRide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubyRide-Prefix.pch"; sourceTree = "<group>"; };
+		F220793519BD7660006315D5 /* RubyRideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubyRideAppDelegate.h; sourceTree = "<group>"; };
+		F220793619BD7660006315D5 /* RubyRideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyRideAppDelegate.m; sourceTree = "<group>"; };
+		F220793919BD7660006315D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F220793B19BD7660006315D5 /* RubyRideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubyRideViewController.h; sourceTree = "<group>"; };
+		F220793C19BD7660006315D5 /* RubyRideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyRideViewController.m; sourceTree = "<group>"; };
+		F220793E19BD7660006315D5 /* RubyRideMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubyRideMyScene.h; sourceTree = "<group>"; };
+		F220793F19BD7660006315D5 /* RubyRideMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyRideMyScene.m; sourceTree = "<group>"; };
+		F220794319BD7660006315D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F220794919BD7660006315D5 /* RubyRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F220794A19BD7660006315D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F220795219BD7660006315D5 /* RubyRideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyRideTests-Info.plist"; sourceTree = "<group>"; };
+		F220795419BD7660006315D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F220795619BD7660006315D5 /* RubyRideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyRideTests.m; sourceTree = "<group>"; };
+		F26A25E419C1B5850013D9D3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F26A25E519C1B5850013D9D3 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F2EA626319BDB74600F747B7 /* Images.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Images.atlas; sourceTree = "<group>"; };
+		F2EA626519BECD8300F747B7 /* EndRide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndRide.h; sourceTree = "<group>"; };
+		F2EA626619BECD8300F747B7 /* EndRide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndRide.m; sourceTree = "<group>"; };
+		F2EA626819BED5BE00F747B7 /* RubyRideSummaryInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyRideSummaryInstance.h; sourceTree = "<group>"; };
+		F2EA626919BED5BE00F747B7 /* RubyRideSummaryInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubyRideSummaryInstance.m; sourceTree = "<group>"; };
+		F2EA639E19C0AE1C00F747B7 /* Level01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Level01.plist; sourceTree = "<group>"; };
+		F2EA63A019C0AE7B00F747B7 /* GameObjectNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObjectNode.h; sourceTree = "<group>"; };
+		F2EA63A119C0AE7B00F747B7 /* GameObjectNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameObjectNode.m; sourceTree = "<group>"; };
+		F2EA63A319C0AECA00F747B7 /* StarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarNode.h; sourceTree = "<group>"; };
+		F2EA63A419C0AECA00F747B7 /* StarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarNode.m; sourceTree = "<group>"; };
+		F2EA63A619C0AF4500F747B7 /* StarPing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = StarPing.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F220791E19BD7660006315D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F220792719BD7660006315D5 /* CoreGraphics.framework in Frameworks */,
+				F220792919BD7660006315D5 /* UIKit.framework in Frameworks */,
+				F220792B19BD7660006315D5 /* SpriteKit.framework in Frameworks */,
+				F220792519BD7660006315D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F220794619BD7660006315D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F220794B19BD7660006315D5 /* XCTest.framework in Frameworks */,
+				F220794D19BD7660006315D5 /* UIKit.framework in Frameworks */,
+				F220794C19BD7660006315D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F220791819BD7660006315D5 = {
+			isa = PBXGroup;
+			children = (
+				F220792C19BD7660006315D5 /* RubyRide */,
+				F220795019BD7660006315D5 /* RubyRideTests */,
+				F220792319BD7660006315D5 /* Frameworks */,
+				F220792219BD7660006315D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F220792219BD7660006315D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F220792119BD7660006315D5 /* RubyRide.app */,
+				F220794919BD7660006315D5 /* RubyRideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F220792319BD7660006315D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F220792419BD7660006315D5 /* Foundation.framework */,
+				F220792619BD7660006315D5 /* CoreGraphics.framework */,
+				F220792819BD7660006315D5 /* UIKit.framework */,
+				F220792A19BD7660006315D5 /* SpriteKit.framework */,
+				F220794A19BD7660006315D5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F220792C19BD7660006315D5 /* RubyRide */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA639E19C0AE1C00F747B7 /* Level01.plist */,
+				F220793519BD7660006315D5 /* RubyRideAppDelegate.h */,
+				F220793619BD7660006315D5 /* RubyRideAppDelegate.m */,
+				F220793819BD7660006315D5 /* Main.storyboard */,
+				F220793B19BD7660006315D5 /* RubyRideViewController.h */,
+				F220793C19BD7660006315D5 /* RubyRideViewController.m */,
+				F220793E19BD7660006315D5 /* RubyRideMyScene.h */,
+				F220793F19BD7660006315D5 /* RubyRideMyScene.m */,
+				F26A25E419C1B5850013D9D3 /* icon.png */,
+				F26A25E519C1B5850013D9D3 /* icon@2x.png */,
+				F2EA626319BDB74600F747B7 /* Images.atlas */,
+				F220794319BD7660006315D5 /* Images.xcassets */,
+				F220792D19BD7660006315D5 /* Supporting Files */,
+				F2EA626519BECD8300F747B7 /* EndRide.h */,
+				F2EA626619BECD8300F747B7 /* EndRide.m */,
+				F2EA626819BED5BE00F747B7 /* RubyRideSummaryInstance.h */,
+				F2EA626919BED5BE00F747B7 /* RubyRideSummaryInstance.m */,
+				F2EA63A019C0AE7B00F747B7 /* GameObjectNode.h */,
+				F2EA63A119C0AE7B00F747B7 /* GameObjectNode.m */,
+				F2EA63A319C0AECA00F747B7 /* StarNode.h */,
+				F2EA63A419C0AECA00F747B7 /* StarNode.m */,
+				F2EA63A619C0AF4500F747B7 /* StarPing.wav */,
+			);
+			path = RubyRide;
+			sourceTree = "<group>";
+		};
+		F220792D19BD7660006315D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F220792E19BD7660006315D5 /* RubyRide-Info.plist */,
+				F220792F19BD7660006315D5 /* InfoPlist.strings */,
+				F220793219BD7660006315D5 /* main.m */,
+				F220793419BD7660006315D5 /* RubyRide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F220795019BD7660006315D5 /* RubyRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				F220795619BD7660006315D5 /* RubyRideTests.m */,
+				F220795119BD7660006315D5 /* Supporting Files */,
+			);
+			path = RubyRideTests;
+			sourceTree = "<group>";
+		};
+		F220795119BD7660006315D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F220795219BD7660006315D5 /* RubyRideTests-Info.plist */,
+				F220795319BD7660006315D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F220792019BD7660006315D5 /* RubyRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F220795A19BD7660006315D5 /* Build configuration list for PBXNativeTarget "RubyRide" */;
+			buildPhases = (
+				F220791D19BD7660006315D5 /* Sources */,
+				F220791E19BD7660006315D5 /* Frameworks */,
+				F220791F19BD7660006315D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubyRide;
+			productName = RubyRide;
+			productReference = F220792119BD7660006315D5 /* RubyRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F220794819BD7660006315D5 /* RubyRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F220795D19BD7660006315D5 /* Build configuration list for PBXNativeTarget "RubyRideTests" */;
+			buildPhases = (
+				F220794519BD7660006315D5 /* Sources */,
+				F220794619BD7660006315D5 /* Frameworks */,
+				F220794719BD7660006315D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F220794F19BD7660006315D5 /* PBXTargetDependency */,
+			);
+			name = RubyRideTests;
+			productName = RubyRideTests;
+			productReference = F220794919BD7660006315D5 /* RubyRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F220791919BD7660006315D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RubyRide;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					F220794819BD7660006315D5 = {
+						TestTargetID = F220792019BD7660006315D5;
+					};
+				};
+			};
+			buildConfigurationList = F220791C19BD7660006315D5 /* Build configuration list for PBXProject "RubyRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F220791819BD7660006315D5;
+			productRefGroup = F220792219BD7660006315D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F220792019BD7660006315D5 /* RubyRide */,
+				F220794819BD7660006315D5 /* RubyRideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F220791F19BD7660006315D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F220793119BD7660006315D5 /* InfoPlist.strings in Resources */,
+				F26A25E719C1B5850013D9D3 /* icon@2x.png in Resources */,
+				F26A25E619C1B5850013D9D3 /* icon.png in Resources */,
+				F2EA63A719C0AF4500F747B7 /* StarPing.wav in Resources */,
+				F2EA626419BDB74600F747B7 /* Images.atlas in Resources */,
+				F2EA639F19C0AE1C00F747B7 /* Level01.plist in Resources */,
+				F220794419BD7660006315D5 /* Images.xcassets in Resources */,
+				F220793A19BD7660006315D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F220794719BD7660006315D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F220795519BD7660006315D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F220791D19BD7660006315D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F220793719BD7660006315D5 /* RubyRideAppDelegate.m in Sources */,
+				F2EA626A19BED5BE00F747B7 /* RubyRideSummaryInstance.m in Sources */,
+				F220793319BD7660006315D5 /* main.m in Sources */,
+				F220794019BD7660006315D5 /* RubyRideMyScene.m in Sources */,
+				F220793D19BD7660006315D5 /* RubyRideViewController.m in Sources */,
+				F2EA63A519C0AECA00F747B7 /* StarNode.m in Sources */,
+				F2EA626719BECD8300F747B7 /* EndRide.m in Sources */,
+				F2EA63A219C0AE7B00F747B7 /* GameObjectNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F220794519BD7660006315D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F220795719BD7660006315D5 /* RubyRideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F220794F19BD7660006315D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F220792019BD7660006315D5 /* RubyRide */;
+			targetProxy = F220794E19BD7660006315D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F220792F19BD7660006315D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F220793019BD7660006315D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F220793819BD7660006315D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F220793919BD7660006315D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F220795319BD7660006315D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F220795419BD7660006315D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F220795819BD7660006315D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F220795919BD7660006315D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F220795B19BD7660006315D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyRide/RubyRide-Prefix.pch";
+				INFOPLIST_FILE = "RubyRide/RubyRide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F220795C19BD7660006315D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyRide/RubyRide-Prefix.pch";
+				INFOPLIST_FILE = "RubyRide/RubyRide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F220795E19BD7660006315D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RubyRide.app/RubyRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyRide/RubyRide-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RubyRideTests/RubyRideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F220795F19BD7660006315D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RubyRide.app/RubyRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyRide/RubyRide-Prefix.pch";
+				INFOPLIST_FILE = "RubyRideTests/RubyRideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F220791C19BD7660006315D5 /* Build configuration list for PBXProject "RubyRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F220795819BD7660006315D5 /* Debug */,
+				F220795919BD7660006315D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F220795A19BD7660006315D5 /* Build configuration list for PBXNativeTarget "RubyRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F220795B19BD7660006315D5 /* Debug */,
+				F220795C19BD7660006315D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F220795D19BD7660006315D5 /* Build configuration list for PBXNativeTarget "RubyRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F220795E19BD7660006315D5 /* Debug */,
+				F220795F19BD7660006315D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F220791919BD7660006315D5 /* Project object */;
+}
